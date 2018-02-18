@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ChuckNorrisText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="JokeCategorySpinner">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SendButton">
+        <item name="android:text">@android:string/search_go</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">36dp</item>
+    </style>
+
+    <style name="SearchByCategoryButton">
+        <item name="android:text">@android:string/search_go</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">64dp</item>
+        <item name="android:background">@drawable/oval_rounded_corners_accent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ChuckNorrisImage">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">160dp</item>
+    </style>
+
+    <style name="ChuckNorrisText.RandomJoke">
+        <item name="android:layout_marginTop">348dp</item>
+        <item name="android:text">""</item>
+    </style>
+
+    <style name="ChuckNorrisImage.RandomJoke">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">24dp</item>
+    </style>
+
+    <style name="ChuckNorrisText.JokeByCategory">
+        <item name="android:layout_marginTop">400dp</item>
+    </style>
+
+    <style name="KeywordTextInputLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="KeywordEditText">
+        <item name="android:hint">Search by keyword</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="JokesRecycler">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">116dp</item>
+    </style>
+
+    <style name="ChuckNorrisImage.Row">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <style name="ChuckNorrisText.Row">
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">88dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="EmptyCaseLabel" parent="ChuckNorrisText">
+        <item name="android:visibility">invisible</item>
+    </style>
+</resources>
